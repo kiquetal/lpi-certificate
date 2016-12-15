@@ -17,4 +17,4 @@
 
 ### Q&A about test center
     
-   [Pearon vue](http://pearsonvue.com/lpi/)
+   [Pearson vue](http://pearsonvue.com/lpi/)
