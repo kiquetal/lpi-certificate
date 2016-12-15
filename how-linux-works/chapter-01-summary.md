@@ -17,7 +17,7 @@ _(Run in a user mode)_ The running programs that the kernel manages, called typi
 
 User mode in comparission restricts access to a subset of memory. _User space_ refers to the parts of main memory that the user processes can access.
 
-### Hardwire
+### Hardware
 #### Main Memory
 ##### State
-Strictly speaking. a state is a particular arrangement of bits. In a more abstract approach: something has done or is doing at the moment. For example, "The process is waiting for input". **Refers to a particular physical arrangement of bits.**
+Strictly speaking a state is a particular arrangement of bits. In a more abstract approach: something has done or is doing at the moment. For example, "The process is waiting for input". **Refers to a particular physical arrangement of bits.**
