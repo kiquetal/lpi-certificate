@@ -11,7 +11,7 @@
   [How linux works] (https://github.com/waydecs/books/blob/master/How%20Linux%20Works,%202nd%20Edition.pdf)
    
    [LPI-1 Linux Professional Institue Certificate] LPIC-1 Linux Professional Institute Certification Study Guide: Exam 101-400 and Exam 102-400, 4th Editi
-### Objetives
+### Objectives
   
    [101](https://www.lpi.org/our-certifications/exam-101-objectives)
 
