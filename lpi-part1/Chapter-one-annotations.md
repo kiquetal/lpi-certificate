@@ -71,4 +71,4 @@
      
      When you run xargs,it runs the `command` once for every word passed to in on standard input,adding that word to the argument list for command. If you want to pass multiple options to the command, you can protect them by enclosing the group in quotation marks.
      
-     
+    
