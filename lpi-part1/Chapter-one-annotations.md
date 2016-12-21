@@ -43,15 +43,16 @@
     
     Redirection Operator
    
-   |Operator |  Decription |
-   |---------|-------------|
-   |>        |Create new file containing standard output. If the specified file exists, it's overwritten. No file descriptor is required.|
-   |>>       |Appends standard output to the existing file.|
-   |2>       |Creates new file containing standard error. If the specified file exists, the fill will be overwritten.File descriptor is mandatory.|
-    |2>>     |Appends standard error to the existing file. If the specified file doesn't exists, it's created. File descriptor is mandatory.|
-    |&>      |Create new file containing both standard output and error output|
-    |<       |Send the contents of the specified file to be used as standardinput. No file decriptor is necessary.|
-    |<<      |Accepts text on the following lines as standard input. No file descriptor is neccesary.|
-    |<>      |Causes the specified file to be used for both standard inputand standard output. No file descriptor is necessary.|
+   
+ |Operator |  Decription |
+ |---------|-------------|
+ |>        |Create new file containing standard output. If the specified file exists, it's overwritten. No file descriptor is required.|
+ |>>       |Appends standard output to the existing file.|
+ |2>       |Creates new file containing standard error. If the specified file exists, the fill will be overwritten.File descriptor is mandatory.|
+ |2>>      |Appends standard error to the existing file. If the specified file doesn't exists, it's created. File descriptor is mandatory.|
+ |&>       |Create new file containing both standard output and error output|
+ |<        |Send the contents of the specified file to be used as standardinput. No file decriptor is necessary.|
+ |<<       |Accepts text on the following lines as standard input. No file descriptor is neccesary.|
+ |<>       |Causes the specified file to be used for both standard inputand standard output. No file descriptor is necessary.|
     
     
