@@ -1,3 +1,3 @@
 #!/bin/bash
 
-emacs 2> /dev/null
+echo $PATH | tee chapter1-pipe.txt
