@@ -56,4 +56,19 @@
 | <<       | Accepts text on the following lines as standard input. No file descriptor is neccesary. |
 | <>       | Causes the specified file to be used for both standard inputand standard output. No file descriptor is necessary. |
     
+   
+### Piping data between programs
+
+    When you need to send the text ouput from one program to the standard input of another program, you can utilize the operator `|`, can be used with an arbitrary length.
     
+    `tee` command ovewrite any file, if you want to append you should send `-a` flag.
+
+### Generating command lines
+
+    The 'xargs' command builds a command from its standard input. 
+    
+     xargs [options] [command [initial-arguments]]
+     
+     When you run xargs,it runs the `command` once for every word passed to in on standard input,adding that word to the argument list for command. If you want to pass multiple options to the command, you can protect them by enclosing the group in quotation marks.
+     
+     
