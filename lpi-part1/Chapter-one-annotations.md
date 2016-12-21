@@ -71,4 +71,39 @@
      
      When you run xargs,it runs the `command` once for every word passed to in on standard input,adding that word to the argument list for command. If you want to pass multiple options to the command, you can protect them by enclosing the group in quotation marks.
      
-    
+     Another command similar to `xargs` is the backtick (`)
+     Use of backtick is falling out of favor beacuse are so often confused with single quotation marks.
+     In several shells you can use `$()` instead
+     
+     
+### Processing Text using Filters
+
+#### File combining with `cat`
+
+     The cat command is the short name for concatenate.
+     Generally is used to display the content to STDOUT, for large files you should prefer
+     use `more` or `less`
+     
+     The reverse operation is `tac`
+     
+#### Joining Files with `Join`
+
+     Combine two files by matching one specific `region`.
+     By default is look for the first field,to be present in the two file, you chould specify another keyfield using -1 or -2 option to indicate the join field 
+     
+#### Merging lines with `paste`
+
+     The paste command merges files line by line, separating the lines from each file with tabs
+     
+### File transforming commands
+
+     The command don't actually change file's content but instead send the changed file's content
+     to STDOUT. You can the pipe this output to another commnad or redirect it into a new file.
+     
+#### Converting Tabs to Spaces with `expand`
+
+    By default, expand asumes tab stop every 8 characters, you can customize this via -t num or --tabs=num
+
+#### Displaying file with `od` command
+
+     It displays a file in an unambiguous format -octal(base 8) numbers by default.

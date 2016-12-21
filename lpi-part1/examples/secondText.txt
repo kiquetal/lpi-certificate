@@ -1,0 +1,3 @@
+Computer, Doom
+ElectricalEngineering, Explode
+ComputerProgramming, Now

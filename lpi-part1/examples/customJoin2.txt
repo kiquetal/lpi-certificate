@@ -1,0 +1,3 @@
+113 Caazapa 100km
+110 San Pedro 250km
+120 San Juan 300km
