@@ -14,17 +14,17 @@
     
 ####  Manual section
     
- | Number | Description |
- | ------ | ----------- |
- | 1      | Executable programs and shell commands |
- | 2      | System calls provided by kernel. |
- | 3      | Library calls provided by programs libraries. |
- | 4      | Devices files (usually stored in /dev) |
- | 5      | File formats |
- | 6      | Games
- | 7      | Miscellaneous |
- | 8      | System administration commands |
- | 9      | Kernel routines |
+| Number | Description |
+| ------ | ----------- |
+| 1      | Executable programs and shell commands |
+| 2      | System calls provided by kernel. |
+| 3      | Library calls provided by programs libraries. |
+| 4      | Devices files (usually stored in /dev) |
+| 5      | File formats |
+| 6      | Games
+| 7      | Miscellaneous |
+| 8      | System administration commands |
+| 9      | Kernel routines |
     
     
     The main difference betweeen man and info, is that with info you can navigate inside
