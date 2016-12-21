@@ -15,6 +15,7 @@
 ####  Manual section
     
  | Number | Description |
+ | ------ | ----------- |
  | 1      | Executable programs and shell commands |
  | 2      | System calls provided by kernel. |
  | 3      | Library calls provided by programs libraries. |
