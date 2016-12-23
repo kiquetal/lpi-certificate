@@ -21,6 +21,7 @@ User mode in comparission restricts access to a subset of memory. _User space_ r
 #### Main Memory
 ##### State
 Strictly speaking a state is a particular arrangement of bits. In a more abstract approach: something has done or is doing at the moment. For example, "The process is waiting for input". **Because it’s common to refer to the state in abstract terms rather than to the actual bits, the term image refers to a particular physical arrangement of bits.**
+In it's most raw form, main memory is just a big storage area for a bunch of 0s and 1s.
 
 ### 2. The Kernel
 Why are we talking about main memory and states? Nearly everything that the kernel does revolves around
