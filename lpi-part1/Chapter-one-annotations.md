@@ -107,3 +107,44 @@
 #### Displaying file with `od` command
 
      It displays a file in an unambiguous format -octal(base 8) numbers by default.
+
+#### Sorting file with `SORT`
+
+     `IgnoreCase` sort sorts by ASCII value. The -f or --ignore-case option causes sort to ignore case.
+     `Month Sort` the -M or --month-sort cause program to sort by three-letter month abbreviation
+     `Numeric Sort`` You can sort by number by using the -n or --numeric sort
+     `Reverse Sort Order` you can sort by number by using the -n or --numeric-sort
+     `Sort Field` By default sort uses the first field as its sort field. You can specify another field with -k field or --key=field option
+     
+#### Breakinga file into pieces with `split`
+
+     The `split` command can split a file into two or more files. Is mandatory that you specify the output file.You must also specify how large you want the individual files to be
+     
+     
+     `Split by Bytes` the -b size or --byte=size
+     `Split Bytes in Line-Sized chunks` -C=size or --line-bytes=size.
+     `Split by number of lines` The -l lines or --lines=lines
+     
+#### Translating characters with TR
+
+     The tr command changes individual characters from standard input.
+     
+     The tr command relies on standard input, which is the reason for the input redirection (<). This is the only way to pass the command line.
+     
+     If [SET2] is shorter than [SET1] the result is that tr sustituite the last available letter from SET2 for the missing letters.
+     
+     The -t or --truncate-set1 option causes tr to truncate SET1 to the size of SET2
+
+      tr [OPTIONS] SET1 [SET2]
+    
+#### Converting spaces to tabs with UNEXPAND
+
+     The unexpand, is the logical opposite of `expand`, convert
+     multiple spaces to tabs.
+     
+#### Deleting duplicate lines with UNIQ
+
+     Remove duplicate lines.
+     
+     Normalize is used with the sort via pipe operator.
+     
