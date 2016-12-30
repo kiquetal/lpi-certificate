@@ -148,3 +148,94 @@
      
      Normalize is used with the sort via pipe operator.
      
+### File formatting Commands
+
+#### Reformatting paragrahps with `fmt`
+
+    Is used to clean the content of the file. By default the max line is setted by 75 characters.
+    
+#### Numbering lines with NL
+
+     You can numered all no emtpy line with cat -b, but if you need more complex task you should use nl
+     `Body numbering style` -b `style`
+     `Header and Footer` you can set the style for these element with the -h style or --header
+     `Page Separator` Some numbering schemes reset the line numbers for each page. Tell the nl how identify a new page.
+     `Line-Number options for new Pages` Line numering begins with new page.
+     `Number Format` Specify the number format with the -n format (ln,rn,rz)
+     
+     Styles
+ | Style | Description |
+ | ----- | ----------- |
+ | t     | Number lines that aren't empty |
+ | a     | Cause all line to be numered |
+ | n     | Cause all lines to be ommited |
+ | pREGEPX | Only lines that matches the regular expression |
+
+#### Preparing a file for printing with `pr`
+
+    Is designed to prepare a file with header, footer, page breaks and so on.
+    
+    Assume an 80 character long per line.
+    
+    By default pr creates output that includes the original text with headers,which lists the current date and time,the original name and the page number.
+    
+    `Generate multicolumn output` -numcols num
+    `Generate Double-Spaced Output` -d
+    `Use Form Feeds` pass the -F ,-f
+    `Set the Header Text` the -h text
+    `Set left margin and page width` The -o chars
+    
+### File-Viewing commands
+
+#### Viewing the starts of Files with `head`
+
+     By default it displays the first 10 lines
+     
+     `Specify the Number of Bytes` -c num
+     `Specify the number of Lines` -n num
+     
+#### Viewing the Ends of Files with `tail`
+
+     Display the last 10 lines
+     
+     `Track a file` with the -f or --follow
+     `Stop tracking on Program Termination` the --pid= pid
+     
+#### Paging through Files with `less`
+
+    The `less` command is a joke, it's a reference to the `more` command,which was an early file pager.
+    
+    The idea behind `less` is to enable you to read a file a screen at a time.
+    
+    You can go the rest of pages using:
+    
+    * Pressing the spacebar moves forward throuhg the file a screen a time
+    * Pressing ESC followed by V moves backward through the file a screen a time
+    * The UP and DOWN arrow keys move up or down through the file a line at a time.
+    * You can search the file's contents by pressing the slash (/) followed by the search term.
+    * You can search backward in the file by using the question mark (?) key rather than the slash key
+    * You can move to a specific line by typing `g` followed by the line number, as in g50 to go to line 50.
+    * When you're done type q to exit from the program.
+    
+    Unlike most of programs described before, `less` can't b eused via pipe operation.
+    
+### File-Summaring commands
+
+#### Extracting Text with `cut`
+
+    The `cut` command extracts portions of input lines and display them on standard input.
+    `By Byte` -b list
+    `By character` -c list
+    `By field` -f list
+    
+#### Obtaining a Word Count with `wc`
+
+    The `wc` command produces a word count
+    You can limit the output to the newline, the word count, the byte count, or a character count -l,-w,-c,-m
+    
+
+### Using Regular Expressions
+
+    Programs like `sed` and `grep` are example of programs using regeular expressions.
+    
+     
