@@ -14,6 +14,7 @@
   
   [command-help](https://www.lifewire.com/uses-of-command-time-2201083)
 
+  [Bash bible] (https://github.com/classicemi/ebooks/blob/master/Linux%20Command%20Line%20and%20Shell%20Scripting%20Bible,%203rd%20Edition.pdf)
 ### Objectives
   
    [101](https://www.lpi.org/our-certifications/exam-101-objectives)

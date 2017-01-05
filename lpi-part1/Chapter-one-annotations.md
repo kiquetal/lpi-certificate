@@ -233,9 +233,34 @@
     The `wc` command produces a word count
     You can limit the output to the newline, the word count, the byte count, or a character count -l,-w,-c,-m
     
+    The results are info about 
+    lines, words, and bytes
+    
 
 ### Using Regular Expressions
 
     Programs like `sed` and `grep` are example of programs using regeular expressions.
     
-     
+#### Grep
+
+    grep [options] regexp [source]
+    
+#### Sed
+
+    Directly modifies a file's content, sending the changed file to standard output. It syntax is
+    sed [options] -f `script-file` [input-file]
+    sed [options] script-text [input-file]
+    
+| Command               | Addresses | Meaning                                                             |
+| -------               | --------- | -------                                                             |
+| =                     | 0 or 1    | Display the current line number                                     |
+| a\text                | 0 or 1    | Append `text` to the file                                           |
+| i\text                | 0 or 1    | Insert `text` into the file                                         |
+| r filename            | 0 or 1    | Append `text` from `filename` into the file                         |
+| c\text                | Range     | Replace the selected range of lines with the provided `txt`         |
+| s/regexp/replacemente | Range     | Replace text that matches the regular expression with `replacement` |
+| w filename            | Range     | Write the current pattern space to the specified file               |
+| q                     | O or 1    | Inmediately quit the script, but print the current pattern space.   |
+| Q                     | 0 or 1    | Inmediately quit the script.                                        |
+    
+
