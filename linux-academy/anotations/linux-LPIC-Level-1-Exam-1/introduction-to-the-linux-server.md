@@ -1,4 +1,4 @@
-## Basic Stuff
+## Lecture: Root User, Sudo Users And Setting Up Your User Account
 
 - **sudo:** sudo also knows as super user
 
@@ -33,3 +33,37 @@ $ userdel -r carlos
 ```
 $ groupadd wheel
 ```
+
+## Lecture: Navigating Linux & The File System
+` /etc/ ` all configuration files
+
+` /var/ ` all the files that changes all the time
+
+## Lecture: Logs & More File Management Tools
+
+### last 20 lines of the file
+```
+$ tail -n 20 cron
+```
+### log file in real time
+```
+$ tail -f secure
+```
+### combine two files
+```
+$ cat cron secure
+```
+### output to a new file
+```
+$ cat cron secure > custom.log
+```
+### pipe and filter a file
+```
+$ tail -f secure | grep fail | grep authentication
+```
+**authentication file:**
+- Centos: secure
+- Ubuntu: auth.log
+
+### navigate through file with less
+$ less file.sh
