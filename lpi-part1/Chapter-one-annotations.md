@@ -245,6 +245,37 @@
 
     grep [options] regexp [source]
     
+##### Glossary of regular expressions
+
+    * Bracket Expressions
+    Characters enclosed in square brackets([]) constitute bracket expressions, which match
+    any one character within the brackets. For instance, the regular expression b[aeiou]g
+    
+    
+    * Range Expressions
+    A range expression is a variant of a bracket expression. Instead of listing every character that matches,range expressions list the start and end points separated by dash (-) a[2-4]z
+    
+    
+    * Any single character
+    The dot represents any single character except a newline. For instance,a.z matches `a2z,abz,aQz`
+    
+    *Start and End of Line.
+    Tha carat(^) represents the start of line, and a dollar sign($) denotes the end of a line.
+    
+    *Repetition Operators.
+    A full or partial regular expression may be followed by a special symbol
+    to denote how many times a matching item must exist.
+    
+    *Multiple Posible Strings
+    The vertical bars(|) separates two possible matches; for instance, car | truck matches either car or truck
+    
+    *Parenthesis
+    Ordinary parenthesis surround expressions. 
+    
+    *Escaping 
+    If you want to match one of the special characters, such a dot, you must `escape` it,that is
+    precede it with backslah`(\)` 
+   
 #### Sed
 
     Directly modifies a file's content, sending the changed file to standard output. It syntax is
@@ -263,4 +294,4 @@
 | q                     | O or 1    | Inmediately quit the script, but print the current pattern space.   |
 | Q                     | 0 or 1    | Inmediately quit the script.                                        |
     
-
+#### 
