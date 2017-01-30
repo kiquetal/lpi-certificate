@@ -12,6 +12,7 @@
     To delete an environment variable, use the `unset` command. The command takes the name
     of a environment variable(without the leading $ symbol) as an option. 
     
+
 ####  Manual section
     
 | Number | Description |
