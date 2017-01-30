@@ -23,5 +23,4 @@
 
 ### Q&A about test center
     
-
    [Pearson vue](http://pearsonvue.com/lpi/)
