@@ -1,0 +1,28 @@
+## Exercises
+
+1. Create directory in your home directory called myscripts.sh then create an empty script called mycron.sh
+2. Edit the newly created mycron.sh. Add the appropiates
+shell notification comment at the top that will identify
+it as script. The script should do the following:
+
+List the date and time in the terminal.
+Show all mounts and drive spaces
+List the date and time in the terminal
+List the free memory on the system.
+
+3. Make sure the script once saved,is executable.
+Using the appropiate command to edit your user CRON,add
+a line that calls this script each hour of every day
+of the month.
+
+4. Comment out the job line from Step #3 in user's crontab.
+Create new job that executes the mycron.sh script at
+2:55 PM every day. Display the crontab file for the 'user' with
+the new values.
+5. Comment out the job line from Step #4 in user's crontab.
+Create a new job that executes the mychron.sh at exactly
+3:55 AM everyday. This new job should
+also redirect standard output and errors to a file
+name cron.log localted in the mycrupt directory create in step #1.
+
+
