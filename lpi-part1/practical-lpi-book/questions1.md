@@ -1,17 +1,17 @@
 ### Vim keystrokes
 
                                                                                             
-| Key | Description                                                   |   |
-| --- | -----------                                                   |   |
-| h   | Moves the cursor left one character.                          |   |
-| j   | Moves the cursor down one line.                               |   |
-| k   | Moves the cursor up one line.                                 |   |
-| l   | Moves the cursor right one character.                         |   |
-| 0   | Moves the cursor to the start of the current line             |   |
-| dw  | Delete the word that comes immediately after the cursor.      |   |
-| d$  | Delete from the insertion point to the endo of the line.      |   |
-| dd  | Delete the current line                                       |   |
-| D   | Delete the rest of the current line from the cursor position. |   |
+| Key | Description                                                   |
+| --- | :------------------------------------------------------------ |
+| h   | Moves the cursor left one character.                          |
+| j   | Moves the cursor down one line.                               |
+| k   | Moves the cursor up one line.                                 |
+| l   | Moves the cursor right one character.                         |
+| 0   | Moves the cursor to the start of the current line             |
+| dw  | Delete the word that comes immediately after the cursor.      |
+| d$  | Delete from the insertion point to the endo of the line.      |
+| dd  | Delete the current line                                       |
+| D   | Delete the rest of the current line from the cursor position. |
 | p   | Inserts the text deleted in the last deletion operation after current cursor |
 | u   | Undoes the last action. |
 | yy  | Copies the line in which the cursor is located to the buffer.|
