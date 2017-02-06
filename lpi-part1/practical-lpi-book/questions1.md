@@ -1,21 +1,21 @@
 ### Vim keystrokes
 
-    | letter | description |
-    | ______ | ___________ |
-    | h | Moves the cursor left one character.|
-    | j | Moves the cursor down one line.|
-    | k | Moves the cursor up one line.|
-    | l | Moves the cursor right one character.|
-    | 0 | Moves the cursor to the start of the current line.|
-    | dw | Deletes the word that comes immediately after the cursor.|
-    | d$ | Deletes from the insertion point to the end of the file.|
-    | dd | Deletes the entire line|
-    | D | Deletes the rest of the current line from the cursor position.|
-    | p | Inserts the text deleted in the last deletion operation after current cursor.|
-    | u | Undoes the last action.|
-    | yy | Copies the linein which the cursor is located to the buffer.|
-    | ZZ | Saves the current file and ends vi|
-    | / | Search |
+  | Letter | Description |
+  | ______ | ___________ |
+  | h | Moves the cursor left one character.|
+  | j | Moves the cursor down one line.|
+  | k | Moves the cursor up one line.|
+  | l | Moves the cursor right one character.|
+  | 0 | Moves the cursor to the start of the current line.|
+  | dw | Deletes the word that comes immediately after the cursor.|
+  | d$ | Deletes from the insertion point to the end of the file.|
+  | dd | Deletes the entire line|
+  | D | Deletes the rest of the current line from the cursor position.|
+  | p | Inserts the text deleted in the last deletion operation after current cursor.|
+  | u | Undoes the last action.|
+  | yy | Copies the linein which the cursor is located to the buffer.|
+  | ZZ | Saves the current file and ends vi|
+  | / | Search |
     
 ### Execution Priorities
 
