@@ -2,11 +2,11 @@
 echo 'Favorite car'
 read CAR
 case $CAR in 
- volvo | ford ) echo 'Nice I love the:' $CAR
+ volvo | ford) echo 'Nice I love the:' $CAR
  ;;
- porshe | vw ) echo $CAR 'OK'
+ porshe | vw) echo $CAR 'OK'
  ;;
- yugo | fiat ) echo 'Sorry'
+ yugo | fiat) echo 'Sorry'
  ;;
  * ) echo 'Not familiar'
  ;;
