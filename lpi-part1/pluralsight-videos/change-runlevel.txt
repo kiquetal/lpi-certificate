@@ -57,3 +57,14 @@
     telinit 3
     
     
+#### Recommend way to shutdown pc
+     
+      shutdown- h now # Halts the system
+      shutdown -r now # Reboots
+      shutdown -h +10 #
+      shutdown -r +10 #
+      shutdown -c # Cancel an impeding operation
+      
+      To send messages the command shutdown we use the Linux command wall to notify users.
+      You too can use wall independelty of the command shutdown
+      
